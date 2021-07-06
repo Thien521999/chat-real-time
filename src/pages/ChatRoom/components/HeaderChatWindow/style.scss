@@ -1,0 +1,30 @@
+.header-chat-window-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid gray;
+    padding: 0 16px;
+    height:56px;
+
+    .header {
+        &-info {
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+        }
+        &-title {
+            margin: 0;
+            font-weight: bold;
+        }
+        &-description {
+            font-size:12px;
+        }
+    }
+
+    .list-room {
+        display: flex;
+        align-items: center;
+    }
+    
+}

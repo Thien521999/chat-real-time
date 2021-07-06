@@ -1,0 +1,18 @@
+.room-list-wrapper {
+    .ant-collapse-header, p {
+        color: #fff !important;
+    }
+
+    .ant-collapse-content-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 4px;
+        padding: 0 40px !important;
+    }
+
+    .add-room {
+        margin-bottom: 5px;
+        color: #fff;
+    }
+}
